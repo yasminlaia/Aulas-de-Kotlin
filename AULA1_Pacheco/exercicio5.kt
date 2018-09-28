@@ -4,7 +4,7 @@
 //public --> Visível sempre (é o padrão)
 //internal --> Visível dentro do módulo
 
-class ContaBancaria(saldoInicial:Int){
+class ContaBancaria(saldoInicial:Double){
     private var saldo: Double
     
     init {
