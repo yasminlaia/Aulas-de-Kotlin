@@ -30,5 +30,4 @@ fun main(args:Array<String>){
     
   cao.dormir()
   cao.latir()
-  piupiu.
 }
