@@ -23,3 +23,21 @@ fun main(args: Array<String>) {
 	println(listaItens)
     
 	}
+
+#UTILIZANDO OUTRA FORMA DE FOR
+
+fun main(args: Array<String>) {
+	var listaItens = arrayListOf ("MS","SP","RJ","BA")
+    var ultimoElemento = listaItens.size-1
+    
+    for(i in 0..ultimoElemento){
+        //print = permanece na mesma linha
+        //println = pula uma linha
+        print("$i -")
+        println(listaItens[i])
+    }
+    
+	}
+
+
+
