@@ -6,7 +6,8 @@ fun main(args: Array<String>) {
        "Linha 3....",
        "Linha 4...."
    )
-    
+   
+   //textos.withIndex() = serve para descobrir qual a posição do vetor
    for ((indice,t) in textos.withIndex()){
 		println("$indice - $t")
    } 
