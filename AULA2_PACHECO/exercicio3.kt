@@ -19,3 +19,12 @@ fun main(args: Array<String>) {
         contador--
     }
 }
+
+#FOR SIMPLES PARA CONTAR DE ZERO ATE CINCO
+
+fun main(args: Array<String>) {
+   for (i in 0..5){
+		println("contador = $i")
+   }
+    
+}
