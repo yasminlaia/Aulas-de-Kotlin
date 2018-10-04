@@ -25,3 +25,14 @@ fun main(args: Array<String>) {
         else -> println("Opção inválida")
     }
 }
+/*----------------OUTRA FORMA DE ESCREVER -----------------------------------------------------------------------------------------------------------------------*/
+fun main(args: Array<String>) {
+	var opcao = 4
+    
+    var escolha = when(opcao){
+        1 -> "Café com leite"
+        2,3 -> "Chocolate quente"
+        else -> "Opção inválida"
+    }
+    println(escolha)
+}
