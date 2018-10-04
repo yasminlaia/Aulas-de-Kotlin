@@ -39,5 +39,17 @@ fun main(args: Array<String>) {
     
 	}
 
+/*
+ 	* Set-> não permite elementos duplicados e é mais rápido que o arrayList 
+    e não respeita a ordem dos elementos.
+ 	* Map -> é uma implementação chave/valor 
+*/
+
+fun main(args: Array<String>) {
+ 	var listaItens = hashSetOf("MS","SP","RJ","BA","SP")
+    println(listaItens)
+	}
+
+
 
 
